@@ -36,7 +36,7 @@ public class QueueTest {
     }
 
     @Test
-    void testLength()
+    void testQueue()
     {
         Queue<Object> q = createQueue();
 
