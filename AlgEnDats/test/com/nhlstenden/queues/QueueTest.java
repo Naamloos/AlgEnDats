@@ -24,7 +24,7 @@ public class QueueTest {
         q.enqueue("e");
 
         Iterator<Object> it = q.iterator();
-        int i = 1;
+        int i = 0;
 
         while(it.hasNext())
         {

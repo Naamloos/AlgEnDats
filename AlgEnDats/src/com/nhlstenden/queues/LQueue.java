@@ -18,7 +18,7 @@ public class LQueue<E> implements Queue<E> {
 	class QueueIterator<E> implements Iterator {
 		private Link<E> current;
 		QueueIterator(Link<E> front) {
-			current = front.next();
+			current = front;
 		}
 
 		@Override
